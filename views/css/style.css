@@ -1,0 +1,338 @@
+
+/************** Style general **************/
+
+body
+{
+	height: 100%;
+}
+
+#sidebar
+{
+	height: 100%;
+	width: 160px;
+	background-color: #35353B;
+	color: #F5F5F5;
+	margin: 0;
+	position: fixed;
+}
+
+#sidebar li
+{
+	height: 160px;
+	width: 160px;
+	border-top: 1px solid #202026;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: block;
+}
+
+#sidebar li a
+{
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	text-decoration: none;
+}
+
+#sidebar span
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 2em;
+}
+
+#sidebar ul
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 70px;
+	height: 100%;
+}
+
+#head
+{
+	position: relative;
+	width: 100%;
+	height: 80px;
+}
+
+#nav_top
+{
+	height: 70px;
+}
+
+#title
+{
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+
+#title h1
+{
+	display: inline-block;
+}
+
+#body-content
+{
+	width: 100%;
+	display: block;
+	margin-top: 80px;
+	margin-left: 180px;
+	margin-right: 20px;
+}
+
+.navbar-fixed-top
+{
+	margin: 0;
+}
+
+#search-input
+{
+	font-size: 1.5em;
+	display: inline-block;
+	border: none;
+	height: 70px;
+	width: 90%;
+	background-color: transparent;
+	margin: 0;
+}
+
+.container
+{
+	height: 70px;
+	display: inline-block;
+	float: left;
+	position: fixed;
+	margin: 0;
+	margin-left: 50px;
+}
+
+.page
+{
+	display: inline-block;
+	position: relative;
+}
+
+.sub-title
+{
+	display: inline-block;
+	margin: auto;
+}
+
+#register
+{
+	margin-right: 25px;
+}
+
+#register button
+{
+	display: block;
+	margin-left: 20px;
+}
+
+#connect
+{
+	display: block;
+	text-align: center;
+	padding: 20px;
+	margin: 15% 0% 0% 40%;
+}
+
+#connect h2
+{
+	margin-bottom: 20px;
+}
+
+#connect input
+{
+	margin-bottom: 20px;
+}
+
+#home_text
+{
+	width: 80%;
+	display: block;
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 8%;
+}
+
+#search_tab
+{
+	margin-left: 15%;
+}
+
+#search_tab h2
+{
+	margin-bottom: 40px;
+}
+
+.tag
+{
+	margin-right: 10px;
+}
+
+#detail-page
+{
+	margin-left: 10%;
+	margin-top: 50px;
+	min-width: 1000px;
+	margin-bottom: 100px;
+}
+
+#detail
+{
+	margin-bottom: 100px;
+}
+
+#title-detail
+{
+	margin-bottom: 60px;
+}
+
+#title-detail h2
+{
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#detail-descr
+{
+	margin-bottom: 60px;
+}
+
+#rating
+{
+	display: inline-block;
+	float: right;
+}
+
+#form-search
+{
+	display: block;
+	margin-bottom: 50px;
+}
+
+.search-c
+{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+#add-provider
+{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.list-comm
+{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #EEEEEE;
+	width: 100%;
+}
+
+.profile-comm
+{
+	width: 10%;
+	margin-right: 0;
+	float: left;
+}
+
+.comm-body
+{
+	width: 85%;
+	float: left;
+}
+
+#add-comm
+{
+	display: block;
+	float: right;
+}
+
+#form-edit
+{
+	margin-top: 150px;
+	margin-left: 55%;
+	min-width: 700px;
+}
+
+#form-edit h2
+{
+	margin-bottom: 40px;
+}
+
+#form-edit input
+{
+	margin-bottom: 20px;
+}
+
+#form-edit select
+{
+	margin-bottom: 20px;
+}
+
+#form-edit-submit
+{
+	margin-top: 20px;
+	display: block;
+	float: right;
+}
+
+#page-admin
+{
+	margin-top: 150px;
+	margin-left: 150px;
+}
+
+#page-admin h2
+{
+	margin-bottom: 50px;
+}
+
+.table-admin-user
+{
+	display: block;
+	position: relative;
+	min-width: 800px;
+	margin-bottom: 50px;
+}
+
+.table-admin
+{
+	display: inline-block;
+}
+
+#admin-theme
+{
+	float: left;
+}
+
+#admin-echelle
+{
+	float: right;
+}
+
+#table-admin-cat
+{
+	display: block;
+	min-width: 800px;
+}
+
+#button-add-usr
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
